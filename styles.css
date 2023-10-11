@@ -1,0 +1,80 @@
+body{
+    background-image: url("portfoliobg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.634);
+}
+
+.intro{    
+    margin-top: 15%;
+    font-family: cursive;
+    color: rgba(255, 255, 255, 0.55);
+    width: 50%;
+}
+
+ul{
+   
+    list-style-type: none;
+    margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li{
+   
+   float: right;
+   margin-left: 6%;
+   font-size: 20px;
+   font-family: cursive;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: transparent;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.55);;
+  }
+
+  nav{
+    padding-right: 10%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.55);
+    padding-bottom: 0.5%;
+  }
+
+.side-title{
+    width: 75vh;
+    padding-top: -5%;
+    height: 60vh;
+    padding-left: 0%;
+    font-size: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.55);
+   
+
+}
+
+.side-content{
+    width: 100vh;
+   
+    height: 80vh;
+    padding-left: 5%;
+    
+    font-family: cursive;
+    color: rgba(255, 255, 255, 0.55);
+    margin-left: 10%;
+}
+
+table{
+    margin-top: 2%;
+    overflow: hidden;
+    margin-left: 10%;
+   
+}
+
+.side-content li{
+    width: 100%;
+    margin-bottom: 10%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.55);
+}
